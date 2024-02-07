@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:src="@drawable/baseline_arrow_back_ios_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Help"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_30sdp"
+        android:textColor="#5F4B8B"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+      <Button
+          android:layout_width="match_parent"
+          android:layout_marginTop="@dimen/_10sdp"
+          android:text="FAQ"
+          android:layout_marginHorizontal="@dimen/_10sdp"
+          android:gravity="start"
+          android:paddingEnd="@dimen/_4sdp"
+          android:background="@drawable/button"
+
+          android:drawableEnd="@drawable/baseline_arrow_circle_right_24"
+          android:layout_height="wrap_content"/>
+        <Button
+          android:layout_width="match_parent"
+          android:layout_marginTop="@dimen/_10sdp"
+          android:text="Contoct us"
+          android:layout_marginHorizontal="@dimen/_10sdp"
+          android:gravity="start"
+            android:background="@drawable/button"
+
+            android:paddingEnd="@dimen/_4sdp"
+          android:drawableEnd="@drawable/baseline_arrow_circle_right_24"
+          android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/button"
+            android:drawableEnd="@drawable/baseline_arrow_circle_right_24"
+            android:gravity="start"
+            android:paddingEnd="@dimen/_4sdp"
+            android:text="App info" />
+    </LinearLayout>
+</LinearLayout>

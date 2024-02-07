@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrivacyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Privacy &amp; Secrity"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="#5F4B8B"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        android:background="@drawable/background"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:text="Application Privacy"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_23sdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:text="Application Privacy
+This page informs you of our policies Regarding informat
+The collection, use, and Disclosure of personal our and in
+Data when you Use our Service and the choices"
+            android:layout_marginBottom="@dimen/_10sdp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        android:background="@drawable/background"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:text="information Provide"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_23sdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:text="Information Provide
+This page informs you of our policies Regarding informat
+The collection, use, and Disclosure of personal our and in
+Data when you Use our Service and the choices ban This painforms you of our policies Regarding."
+            android:layout_marginBottom="@dimen/_10sdp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_38sdp"
+        android:src="@drawable/imeg3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="sing up"
+        android:textColor="#5F4B8B"
+        android:textSize="@dimen/_20sdp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/pakistan"
+        android:drawableEnd="@drawable/baseline_person_24"
+        android:hint="user Name"
+        android:paddingStart="@dimen/_22sdp"
+        android:textSize="@dimen/_20sdp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_59sdp"
+        android:background="@drawable/pakistan"
+        android:drawableEnd="@drawable/baseline_email_24"
+        android:hint="Email ️"
+        android:paddingStart="@dimen/_12sdp"
+        android:textSize="@dimen/_20sdp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_59sdp"
+        android:background="@drawable/pakistan"
+        android:drawableEnd="@drawable/baseline_call_24"
+        android:hint="+92324-7869021"
+        android:paddingStart="@dimen/_12sdp"
+        android:textSize="@dimen/_20sdp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/background2"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp" />
+
+</LinearLayout>
